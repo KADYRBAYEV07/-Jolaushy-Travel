@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="kk">
+<head>
+    <link rel="icon" href="АА.png">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jolaushy Travel | Әлемді бірге аралайық</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container header-inner">
+            <a href="index.html" class="logo">🌍 <span>Jolaushy Travel</span></a>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="index.html">Басты бет</a></li>
+                    <li><a href="services.html">Турлар</a></li>
+                    <li><a href="about.html">Біз туралы</a></li>
+                    <li><a href="contact.html">Байланыс</a></li>
+                </ul>
+            </nav>
+            <button class="hamburger">☰</button>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container fade-in">
+                <h1>Арманыңыздағы саяхат осында басталады</h1>
+                <!-- Осы жолды табыңыз: -->
+<!-- Мынадай етіп өзгертіңіз: -->
+<p class="typing-text">Қазақстан мен шетелдегі ең танымал бағыттар. Арнайы бағалар, қауіпсіз брондау, 24/7 қолдау.</p>
+
+
+
+                
+                <form id="searchForm" class="search-box">
+  <div class="form-group">
+    <label>Қайда барғыңыз келеді?</label>
+    <input type="text" id="searchQuery" placeholder="Мысалы: Анталия, Алматы, Париж">
+  </div>
+  <div class="form-group">
+    <label>Күн</label>
+    <input type="date" id="searchDate">
+  </div>
+  <div class="form-group">
+    <label>Адам саны</label>
+    <select id="searchPeople">
+      <option value="">Таңдаңыз</option>
+      <option value="1">1 адам</option>
+      <option value="2">2 адам</option>
+      <option value="3-5">3-5 адам</option>
+      <option value="5+">5+ адам</option>
+    </select>
+  </div>
+  <button type="submit" class="btn btn-primary search-btn">
+    <span class="spinner"></span>
+    <span class="btn-text">🔍 Іздеу</span>
+  </button>
+</form>
+        </section>
+
+        <section class="section">
+            <div class="container">
+                <div class="section-title fade-in">
+                    <h2>Танымал бағыттар</h2>
+                    <p>Клиенттер ең көп таңдайтын ерекше турлар</p>
+                </div>
+                <div class="grid">
+                    <div class="card fade-in" data-category="asia">
+                        <div class="card-badge">🔥 Хит</div>
+                        <img src="https://avatars.mds.yandex.net/i?id=7db2e41c239643dd1321cbca5e5768b7_l-4706965-images-thumbs&n=13" alt="">
+                        <div class="card-body">
+                            <h3>Жапония: Токио & Киото</h3>
+                            <div class="card-meta"><span>📅 8 күн</span><span>⭐ 4.9</span></div>
+                            <div class="card-price">850 000 ₸ <span>/ адам</span></div>
+                            <button class="btn btn-outline book-now">Брондау</button>
+                        </div>
+                    </div>
+                    <div class="card fade-in" data-category="europe">
+                        <div class="card-badge">✨ Жаңа</div>
+                        <img src="https://i.ytimg.com/vi/6uGh5z5XbxY/maxresdefault.jpg" alt="">
+                        <div class="card-body">
+                            <h3>Түркия: Каппадокия & Стамбул</h3>
+                            <div class="card-meta"><span>📅 7 күн</span><span>⭐ 4.8</span></div>
+                            <div class="card-price">420 000 ₸ <span>/ адам</span></div>
+                            <button class="btn btn-outline book-now">Брондау</button>
+                        </div>
+                    </div>
+                    <div class="card fade-in" data-category="kazakhstan">
+                        <div class="card-badge">🏔️ Ішкі</div>
+                        <img src="https://kazpravda.kz/media/uploads/publication2/226/13/226135-image.jpg" alt="">
+                        <div class="card-body">
+                            <h3>Қазақстан: Көлсай & Қайыңды</h3>
+                            <div class="card-meta"><span>📅 3 күн</span><span>⭐ 4.7</span></div>
+                            <div class="card-price">95 000 ₸ <span>/ адам</span></div>
+                            <button class="btn btn-outline book-now">Брондау</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" style="background: #f1f5f9;">
+            <div class="container">
+                <div class="section-title fade-in">
+                    <h2>Неге бізді таңдайды?</h2>
+                    <p>10 000+ турист сенім білдірген серіктес</p>
+                </div>
+                <div class="features fade-in">
+                    <div class="feature-card"><div class="feature-icon">💳</div><h4>Қауіпсіз төлем</h4><p>Банктік шифрлеу, қайтару кепілдігі</p></div>
+                    <div class="feature-card"><div class="feature-icon">👨‍✈️</div><h4>Кәсіби гидтер</h4><p>Тәжірибелі, көптілді сарапшылар</p></div>
+                    <div class="feature-card"><div class="feature-icon">📞</div><h4>24/7 Қолдау</h4><p>Саяхат барысында әрқашан байланыста</p></div>
+                    <div class="feature-card"><div class="feature-icon">🎒</div><h4>Барлығы қамтылған</h4><p>Ұшақ, отель, тамақ, виза көмегі</p></div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h4>🌍 Jolaushy Travel</h4>
+                    <p>Қазақстандық цифрлық туристік платформа. Сенімді, жылдам, қолжетімді.</p>
+                </div>
+                <div class="footer-col"><h4>Навигация</h4><ul><li><a href="index.html">Басты бет</a></li><li><a href="services.html">Турлар</a></li><li><a href="about.html">Біз туралы</a></li><li><a href="contact.html">Байланыс</a></li></ul></div>
+                <div class="footer-col"><h4>Ақпарат</h4><ul><li><a href="#">Виза көмегі</a></li><li><a href="#">Сақтандыру</a></li><li><a href="#">Жиі қойылатын сұрақтар</a></li></ul></div>
+                <div class="footer-col"><h4>Байланыс</h4><ul><li>📍 Алматы, Абай даңғылы 150</li><li>📞 +7 (777) 123-45-67</li><li>✉️ info@jolaushy.travel</li></ul></div>
+            </div>
+            <div class="feature-card animate-stagger">...</div>
+            <div class="footer-bottom">© 2026 Jolaushy Travel. Барлық құқықтар қорғалған.</div>
+        </div>
+
+    </footer>
+    <script src="js/main.js"></script>
+</body>
+</html>

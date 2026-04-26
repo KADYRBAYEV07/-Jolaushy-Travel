@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="kk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Турлар | Jolaushy Travel</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container header-inner">
+            <a href="index.html" class="logo">🌍 <span>Jolaushy Travel</span></a>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="index.html">Басты бет</a></li>
+                    <li><a href="services.html">Турлар</a></li>
+                    <li><a href="about.html">Біз туралы</a></li>
+                    <li><a href="contact.html">Байланыс</a></li>
+                </ul>
+            </nav>
+            <button class="hamburger">☰</button>
+        </div>
+    </header>
+
+    <main>
+        <section class="section">
+            <div class="container">
+                <div class="section-title fade-in">
+                    <h2>Барлық турлар</h2>
+                    <p>Өзіңізге лайықты бағытты таңдаңыз немесе фильтр арқылы іріктеңіз</p>
+                </div>
+
+                <div class="filters fade-in">
+                    <button class="filter-btn active" data-category="all">🌍 Барлығы</button>
+                    <button class="filter-btn" data-category="kazakhstan">🇰🇿 Қазақстан</button>
+                    <button class="filter-btn" data-category="asia">🌏 Азия</button>
+                    <button class="filter-btn" data-category="europe">🌍 Еуропа</button>
+                    <button class="filter-btn" data-category="premium">👑 Premium</button>
+                </div>
+
+                <div class="grid" id="tourGrid">
+                    <!-- 🇰🇿 ҚАЗАҚСТАН -->
+                    <div class="card animate-stagger filtering-in" data-category="kazakhstan">
+                        <div class="card-badge">🔥 Хит</div>
+                        <div class="card-img"><img src="https://images.unsplash.com/photo-1545569341-9eb8b30979d9?auto=format&fit=crop&w=600&q=80" alt="Көлсай" loading="lazy"></div>
+                        <div class="card-body"><h3>Көлсай & Қайыңды</h3><div class="card-meta"><span>📅 3 күн</span><span>⭐ 4.7</span></div><div class="card-price">95 000 ₸ <span>/ адам</span></div><button class="btn btn-outline book-now">Брондау</button></div>
+                    </div>
+                    <div class="card animate-stagger filtering-in" data-category="kazakhstan">
+                        <div class="card-img"><img src="https://avatars.mds.yandex.net/i?id=cd6730395262d470e6c4ca19f00a8075_l-5235306-images-thumbs&n=13"></div>
+                        <div class="card-body"><h3>Шарын каньоны & Байқоңыр</h3><div class="card-meta"><span>📅 4 күн</span><span>⭐ 4.6</span></div><div class="card-price">145 000 ₸ <span>/ адам</span></div><button class="btn btn-outline book-now">Брондау</button></div>
+                    </div>
+                    <div class="card animate-stagger filtering-in" data-category="kazakhstan">
+                        <div class="card-badge">✨ Жаңа</div>
+                        <div class="card-img"><img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?auto=format&fit=crop&w=600&q=80" alt="Бурабай" loading="lazy"></div>
+                        <div class="card-body"><h3>Бурабай & Оқжетпес</h3><div class="card-meta"><span>📅 2 күн</span><span>⭐ 4.5</span></div><div class="card-price">65 000 ₸ <span>/ адам</span></div><button class="btn btn-outline book-now">Брондау</button></div>
+                    </div>
+                    <div class="card animate-stagger filtering-in" data-category="kazakhstan">
+                        <div class="card-img"><img src="https://images.unsplash.com/photo-1531366936337-7c912a4589a7?auto=format&fit=crop&w=600&q=80" alt="Алматы" loading="lazy"></div>
+                        <div class="card-body"><h3>Алматы - Тамғалы - Қапшағай</h3><div class="card-meta"><span>📅 3 күн</span><span>⭐ 4.4</span></div><div class="card-price">88 000 ₸ <span>/ адам</span></div><button class="btn btn-outline book-now">Брондау</button></div>
+                    </div>
+
+                    <!-- 🌏 АЗИЯ -->
+                    <div class="card animate-stagger filtering-in" data-category="asia">
+                        <div class="card-img"><img src="https://i.ytimg.com/vi/p38PKGghdO0/maxresdefault.jpg"></div>
+                        <div class="card-body"><h3>Жапония: Токио & Киото</h3><div class="card-meta"><span>📅 8 күн</span><span>⭐ 4.9</span></div><div class="card-price">850 000 ₸ <span>/ адам</span></div><button class="btn btn-outline book-now">Брондау</button></div>
+                    </div>
+                    <div class="card animate-stagger filtering-in" data-category="asia">
+                        <div class="card-badge">🔥 Топ-1</div>
+                        <div class="card-img"><img src="https://images.unsplash.com/photo-1524231757912-21f4fe3a7200?auto=format&fit=crop&w=600&q=80" alt="Түркия" loading="lazy"></div>
+                        <div class="card-body"><h3>Түркия: Каппадокия & Стамбул</h3><div class="card-meta"><span>📅 7 күн</span><span>⭐ 4.8</span></div><div class="card-price">420 000 ₸ <span>/ адам</span></div><button class="btn btn-outline book-now">Брондау</button></div>
+                    </div>
+                    <div class="card animate-stagger filtering-in" data-category="asia">
+                        <div class="card-img"><img src="https://avatars.mds.yandex.net/get-vertis-journal/4471904/paradise_may_19-01616.jpg_1735170003031/orig"></div>
+                        <div class="card-body"><h3>Тайланд: Бангкок & Пхукет</h3><div class="card-meta"><span>📅 9 күн</span><span>⭐ 4.7</span></div><div class="card-price">580 000 ₸ <span>/ адам</span></div><button class="btn btn-outline book-now">Брондау</button></div>
+                    </div>
+                    <div class="card animate-stagger filtering-in" data-category="asia">
+                        <div class="card-badge">✨ Визасыз</div>
+                        <div class="card-img"><img src="https://images.unsplash.com/photo-1539020140153-e479b8c22e70?auto=format&fit=crop&w=600&q=80" alt="Корея" loading="lazy"></div>
+                        <div class="card-body"><h3>Оңтүстік Корея: Сеул & Чеджу</h3><div class="card-meta"><span>📅 6 күн</span><span>⭐ 4.8</span></div><div class="card-price">720 000 ₸ <span>/ адам</span></div><button class="btn btn-outline book-now">Брондау</button></div>
+                    </div>
+                    <div class="card animate-stagger filtering-in" data-category="asia">
+                        <div class="card-img"><img src="https://i.ytimg.com/vi/4bFNQT1cAcM/maxresdefault.jpg"></div>
+                        <div class="card-body"><h3>Өзбекстан: Самарқанд & Бұхара</h3><div class="card-meta"><span>📅 4 күн</span><span>⭐ 4.6</span></div><div class="card-price">180 000 ₸ <span>/ адам</span></div><button class="btn btn-outline book-now">Брондау</button></div>
+                    </div>
+
+                    <!-- 🌍 ЕУРОПА -->
+                    <div class="card animate-stagger filtering-in" data-category="europe">
+                        <div class="card-badge">🇫🇷 Romantic</div>
+                        <div class="card-img"><img src="https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=600&q=80" alt="Париж" loading="lazy"></div>
+                        <div class="card-body"><h3>Франция: Париж & Ницца</h3><div class="card-meta"><span>📅 6 күн</span><span>⭐ 4.9</span></div><div class="card-price">980 000 ₸ <span>/ адам</span></div><button class="btn btn-outline book-now">Брондау</button></div>
+                    </div>
+                    <div class="card animate-stagger filtering-in" data-category="europe">
+                        <div class="card-img"><img src="https://avatars.mds.yandex.net/i?id=eb94be2fe655bd16e5ca61afa2649a4cb4044767-5478714-images-thumbs&n=13"></div>
+                        <div class="card-body"><h3>Италия: Рим & Венеция</h3><div class="card-meta"><span>📅 7 күн</span><span>⭐ 4.8</span></div><div class="card-price">1 050 000 ₸ <span>/ адам</span></div><button class="btn btn-outline book-now">Брондау</button></div>
+                    </div>
+                    <div class="card animate-stagger filtering-in" data-category="europe">
+                        <div class="card-badge">⚽ Fan Zone</div>
+                        <div class="card-img"><img src="https://avatars.mds.yandex.net/i?id=494b81ad22cb7fa44c3dbd86e9d4bff2_l-5257898-images-thumbs&n=13"></div>
+                        <div class="card-body"><h3>Испания: Барселона & Мадрид</h3><div class="card-meta"><span>📅 8 күн</span><span>⭐ 4.7</span></div><div class="card-price">1 120 000 ₸ <span>/ адам</span></div><button class="btn btn-outline book-now">Брондау</button></div>
+                    </div>
+                    <div class="card animate-stagger filtering-in" data-category="europe">
+                        <div class="card-img"><img src="https://images.unsplash.com/photo-1530122037265-a5f1f91d3b99?auto=format&fit=crop&w=600&q=80" alt="Швейцария" loading="lazy"></div>
+                        <div class="card-body"><h3>Швейцария: Альпы & Цюрих</h3><div class="card-meta"><span>📅 5 күн</span><span>⭐ 4.9</span></div><div class="card-price">1 350 000 ₸ <span>/ адам</span></div><button class="btn btn-outline book-now">Брондау</button></div>
+                    </div>
+
+                    <!-- 👑 PREMIUM -->
+                    <div class="card animate-stagger filtering-in" data-category="premium">
+                        <div class="card-badge">👑 VIP</div>
+                        <div class="card-img"><img src="https://images.unsplash.com/photo-1514282401047-d79a71a590e8?auto=format&fit=crop&w=600&q=80" alt="Мальдивтер" loading="lazy"></div>
+                        <div class="card-body"><h3>Мальдивтер: Luxury Villa</h3><div class="card-meta"><span>📅 10 күн</span><span>⭐ 5.0</span></div><div class="card-price">2 500 000 ₸ <span>/ жұп</span></div><button class="btn btn-outline book-now">Брондау</button></div>
+                    </div>
+                    <div class="card animate-stagger filtering-in" data-category="premium">
+                        <div class="card-img"><img src="https://metropolitan.realestate/wp-content/uploads/2021/07/sheikh-zayed-road-e6.jpg" alt="Дубай" loading="lazy"></div>
+                        <div class="card-body"><h3>Дубай: Skyline & Yacht</h3><div class="card-meta"><span>📅 5 күн</span><span>⭐ 4.9</span></div><div class="card-price">1 800 000 ₸ <span>/ адам</span></div><button class="btn btn-outline book-now">Брондау</button></div>
+                    </div>
+                    <div class="card animate-stagger filtering-in" data-category="premium">
+                        <div class="card-badge">✨ Exclusive</div>
+                        <div class="card-img"><img src="https://q-xx.bstatic.com/xdata/images/hotel/max1024x768/130155852.jpg?k=22ca88232f33965aacb4386ce5536d78bbe6666130f61fd687ef2e0e72f7cd47&o=" alt="Бали" loading="lazy"></div>
+                        <div class="card-body"><h3>Бали: Jungle & Temple Retreat</h3><div class="card-meta"><span>📅 12 күн</span><span>⭐ 4.8</span></div><div class="card-price">2 100 000 ₸ <span>/ адам</span></div><button class="btn btn-outline book-now">Брондау</button></div>
+                    </div>
+                    <div class="card animate-stagger filtering-in" data-category="premium">
+                        <div class="card-img"><img src="https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?auto=format&fit=crop&w=600&q=80" alt="Лондон" loading="lazy"></div>
+                        <div class="card-body"><h3>Ұлыбритания: Лондон & Шотландия</h3><div class="card-meta"><span>📅 9 күн</span><span>⭐ 4.9</span></div><div class="card-price">1 650 000 ₸ <span>/ адам</span></div><button class="btn btn-outline book-now">Брондау</button></div>
+                    </div>
+                    <div class="card animate-stagger filtering-in" data-category="premium">
+                        <div class="card-img"><img src="https://images.unsplash.com/photo-1570077188670-e3a8d69ac5ff?auto=format&fit=crop&w=600&q=80" alt="Грекия" loading="lazy"></div>
+                        <div class="card-body"><h3>Грекия: Санторини & Миконос</h3><div class="card-meta"><span>📅 7 күн</span><span>⭐ 4.9</span></div><div class="card-price">1 480 000 ₸ <span>/ адам</span></div><button class="btn btn-outline book-now">Брондау</button></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col"><h4>🌍 Jolaushy Travel</h4><p>Сенімді, жылдам, қолжетімді саяхат платформасы.</p></div>
+                <div class="footer-col"><h4>Навигация</h4><ul><li><a href="index.html">Басты бет</a></li><li><a href="services.html">Турлар</a></li><li><a href="about.html">Біз туралы</a></li><li><a href="contact.html">Байланыс</a></li></ul></div>
+                <div class="footer-col"><h4>Ақпарат</h4><ul><li><a href="#">Виза көмегі</a></li><li><a href="#">Сақтандыру</a></li><li><a href="#">Қайтару саясаты</a></li></ul></div>
+                <div class="footer-col"><h4>Байланыс</h4><ul><li>📍 Алматы, Абай д. 150</li><li>📞 +7 (777) 123-45-67</li><li>✉️ booking@jolaushy.travel</li></ul></div>
+            </div>
+            <div class="footer-bottom">© 2026 Jolaushy Travel. Барлық құқықтар қорғалған.</div>
+        </div>
+    </footer>
+    <script src="js/main.js"></script>
+</body>
+</html>
